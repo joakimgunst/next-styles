@@ -1,9 +1,9 @@
-import { exampleStyle, themeClass } from "./HomeView.css";
+import { container, text } from "./HomeView.css";
 
 export default function HomeView() {
   return (
-    <section className={themeClass}>
-      <h1 className={exampleStyle}>Hello world!</h1>
+    <section className={container}>
+      <h1 className={text}>Sustainable digital engineering</h1>
     </section>
   );
 }
