@@ -6,6 +6,8 @@ export const container = style({
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
+  flexDirection: "column",
+  gap: 24,
 });
 
 const pulse = keyframes({
@@ -16,9 +18,10 @@ const pulse = keyframes({
 });
 
 export const text = style({
-  fontFamily: vars.font.main,
+  fontFamily: vars.font.text,
   fontSize: "2rem",
   textAlign: "center",
+  margin: 0,
   animation: `10s infinite ${pulse}`,
   transition: "all .2s ease",
   userSelect: "none",
@@ -30,4 +33,10 @@ export const text = style({
       fontSize: "4rem",
     },
   },
+});
+
+export const buttons = style({
+  display: "flex",
+  alignItems: "center",
+  gap: 16,
 });

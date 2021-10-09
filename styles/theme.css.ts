@@ -8,6 +8,10 @@ globalFontFace("Reckless Neue", {
   src: 'url("/fonts/RecklessNeue-Regular.woff2")',
 });
 
+globalFontFace("Roobert", {
+  src: 'url("/fonts/Roobert-Regular.woff2")',
+});
+
 export const vars = createGlobalTheme(":root", {
   color: {
     neroBlack: "#151515",
@@ -18,7 +22,8 @@ export const vars = createGlobalTheme(":root", {
     cloudySky: "#ADA9A1",
   },
   font: {
-    main: "Reckless Neue",
+    text: "Reckless Neue",
+    ui: "Roobert",
   },
 });
 
