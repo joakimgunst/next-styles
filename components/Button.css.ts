@@ -8,15 +8,21 @@ const buttonBase = style({
   padding: "8px 16px",
   borderWidth: 2,
   borderStyle: "solid",
-  borderColor: vars.color.neonBlue,
+  borderColor: vars.color.text,
   borderRadius: 8,
   transition: "all .2s ease",
   ":hover": {
-    transform: "scale(1.1)",
+    transform: "scale(1.05)",
   },
 });
 
 export const buttonVariants = styleVariants({
-  primary: [buttonBase, { background: vars.color.neonBlue, color: "white" }],
-  secondary: [buttonBase, { background: "white", color: vars.color.neonBlue }],
+  primary: [
+    buttonBase,
+    { background: vars.color.text, color: vars.color.background },
+  ],
+  secondary: [
+    buttonBase,
+    { background: vars.color.background, color: vars.color.text },
+  ],
 });
