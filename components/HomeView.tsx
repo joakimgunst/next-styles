@@ -1,9 +1,15 @@
+import React from "react";
 import { keyframes, styled, theme } from "../stitches.config";
+import Button from "./Button";
 
 export default function HomeView() {
   return (
     <Section>
       <Heading>Sustainable digital engineering</Heading>
+      <Buttons>
+        <Button variant="primary">Toggle dark mode</Button>
+        <Button variant="secondary">Do nothing</Button>
+      </Buttons>
     </Section>
   );
 }
@@ -36,4 +42,10 @@ const Heading = styled("h1", {
   "@desktop": {
     fontSize: "4rem",
   },
+});
+
+const Buttons = styled("div", {
+  display: "flex",
+  alignItems: "center",
+  gap: 16,
 });
