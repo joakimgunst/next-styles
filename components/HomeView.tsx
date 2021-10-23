@@ -1,13 +1,19 @@
 import React from "react";
-import { keyframes, styled, theme } from "../stitches.config";
+import { darkTheme, keyframes, styled, theme } from "../stitches.config";
 import Button from "./Button";
 
 export default function HomeView() {
+  function toggleDarkMode() {
+    document.body.classList.toggle(darkTheme);
+  }
+
   return (
     <Section>
       <Heading>Sustainable digital engineering</Heading>
       <Buttons>
-        <Button variant="primary">Toggle dark mode</Button>
+        <Button variant="primary" onClick={toggleDarkMode}>
+          Toggle dark mode
+        </Button>
         <Button variant="secondary">Do nothing</Button>
       </Buttons>
     </Section>
