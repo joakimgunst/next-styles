@@ -1,4 +1,4 @@
-import { keyframes, styled } from "../stitches.config";
+import { keyframes, styled, theme } from "../stitches.config";
 
 export default function HomeView() {
   return (
@@ -9,7 +9,7 @@ export default function HomeView() {
 }
 
 const Section = styled("section", {
-  background: "$background",
+  background: theme.colors.background,
   height: "100vh",
   display: "flex",
   alignItems: "center",
@@ -25,8 +25,8 @@ const pulse = keyframes({
 });
 
 const Heading = styled("h1", {
-  fontFamily: "$text",
-  color: "$accent",
+  fontFamily: theme.fonts.text,
+  color: theme.colors.accent,
   fontSize: "2rem",
   textAlign: "center",
   margin: 0,

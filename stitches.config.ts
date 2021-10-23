@@ -9,7 +9,7 @@ const colors = {
   pureWhite: "#FFFFFF",
 };
 
-export const { styled, getCssText, keyframes } = createStitches({
+export const { styled, getCssText, keyframes, theme } = createStitches({
   theme: {
     fonts: {
       text: "Reckless Neue",
