@@ -1,4 +1,4 @@
-import { createStitches } from "@stitches/react";
+import { createStitches, globalCss } from "@stitches/react";
 
 const colors = {
   rockBlack: "#26273A",
@@ -24,4 +24,8 @@ export const { styled, getCssText, keyframes } = createStitches({
   media: {
     desktop: "(min-width: 1024px)",
   },
+});
+
+export const globalStyles = globalCss({
+  body: { margin: 0 },
 });
