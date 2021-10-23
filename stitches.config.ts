@@ -28,4 +28,14 @@ export const { styled, getCssText, keyframes } = createStitches({
 
 export const globalStyles = globalCss({
   body: { margin: 0 },
+  "@font-face": [
+    {
+      fontFamily: "Reckless Neue",
+      src: 'url("/fonts/RecklessNeue-Regular.woff2")',
+    },
+    {
+      fontFamily: "Roobert",
+      src: 'url("/fonts/Roobert-Regular.woff2")',
+    },
+  ],
 });
