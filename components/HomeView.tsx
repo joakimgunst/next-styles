@@ -37,7 +37,7 @@ const pulse = keyframes({
 });
 
 const Heading = styled("h1", {
-  fontFamily: "$text",
+  fontFamily: "$display",
   color: "$accent",
   fontSize: "2rem",
   textAlign: "center",

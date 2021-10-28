@@ -4,15 +4,13 @@ const colors = {
   rockBlack: "#26273A",
   neonBlue: "#6056EB",
   malibuBlue: "#6DC4E2",
-  tuftBush: "#FFD1C1",
-  cloudySky: "#ADA9A1",
   pureWhite: "#FFFFFF",
 };
 
 export const { styled, getCssText, keyframes } = createStitches({
   theme: {
     fonts: {
-      text: "Reckless Neue",
+      display: "Reckless Neue",
       ui: "Roobert",
     },
     colors: {
@@ -39,7 +37,8 @@ export const globalStyles = globalCss({
   "@font-face": [
     {
       fontFamily: "Reckless Neue",
-      src: 'url("/fonts/RecklessNeue-Regular.woff2")',
+      fontWeight: "bold",
+      src: 'url("/fonts/RecklessNeue-Bold.woff2")',
     },
     {
       fontFamily: "Roobert",
