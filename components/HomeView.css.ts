@@ -18,7 +18,7 @@ const pulse = keyframes({
 });
 
 export const text = style({
-  fontFamily: vars.font.text,
+  fontFamily: vars.font.display,
   color: vars.color.accent,
   fontSize: "2rem",
   textAlign: "center",
