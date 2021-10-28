@@ -1,13 +1,13 @@
-import { styled, theme } from "../stitches.config";
+import { styled } from "../stitches.config";
 
 const Button = styled("button", {
-  fontFamily: theme.fonts.ui,
+  fontFamily: "$ui",
   fontSize: "1.5rem",
   textAlign: "center",
   padding: "8px 16px",
   borderWidth: 2,
   borderStyle: "solid",
-  borderColor: theme.colors.text,
+  borderColor: "$text",
   borderRadius: 8,
   transition: "all .2s ease",
   "&:hover": {
@@ -16,12 +16,12 @@ const Button = styled("button", {
   variants: {
     variant: {
       primary: {
-        background: theme.colors.text,
-        color: theme.colors.background,
+        background: "$text",
+        color: "$background",
       },
       secondary: {
-        background: theme.colors.background,
-        color: theme.colors.text,
+        background: "$background",
+        color: "$text",
       },
     },
   },

@@ -1,5 +1,5 @@
 import React from "react";
-import { darkTheme, keyframes, styled, theme } from "../stitches.config";
+import { darkTheme, keyframes, styled } from "../stitches.config";
 import Button from "./Button";
 
 export default function HomeView() {
@@ -21,7 +21,7 @@ export default function HomeView() {
 }
 
 const Section = styled("section", {
-  background: theme.colors.background,
+  background: "$background",
   height: "100vh",
   display: "flex",
   alignItems: "center",
@@ -37,8 +37,8 @@ const pulse = keyframes({
 });
 
 const Heading = styled("h1", {
-  fontFamily: theme.fonts.text,
-  color: theme.colors.accent,
+  fontFamily: "$text",
+  color: "$accent",
   fontSize: "2rem",
   textAlign: "center",
   margin: 0,
