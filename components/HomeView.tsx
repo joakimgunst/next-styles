@@ -27,7 +27,7 @@ const Section = styled("section", {
   alignItems: "center",
   justifyContent: "center",
   flexDirection: "column",
-  gap: 40,
+  gap: "$10",
 });
 
 const pulse = keyframes({
@@ -39,19 +39,19 @@ const pulse = keyframes({
 const Heading = styled("h1", {
   fontFamily: "$display",
   color: "$accent",
-  fontSize: "2rem",
+  fontSize: "$3xl",
   textAlign: "center",
   margin: 0,
   animation: `10s infinite ${pulse}`,
   transition: "all .2s ease",
   userSelect: "none",
   "@desktop": {
-    fontSize: "4rem",
+    fontSize: "$6xl",
   },
 });
 
 const Buttons = styled("div", {
   display: "flex",
   alignItems: "center",
-  gap: 16,
+  gap: "$4",
 });

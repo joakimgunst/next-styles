@@ -2,9 +2,9 @@ import { styled } from "../stitches.config";
 
 const Button = styled("button", {
   fontFamily: "$ui",
-  fontSize: "1.25rem",
+  fontSize: "$xl",
   textAlign: "center",
-  padding: "8px 16px",
+  padding: "$2 $4",
   borderWidth: 2,
   borderStyle: "solid",
   borderColor: "$text",
