@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 export default function HomeView() {
   function toggleDarkMode() {
@@ -11,8 +12,10 @@ export default function HomeView() {
         Sustainable digital engineering
       </h1>
       <div className="flex items-center gap-4">
-        <button onClick={toggleDarkMode}>Toggle dark mode</button>
-        <button>Do nothing</button>
+        <Button variant="primary" onClick={toggleDarkMode}>
+          Toggle dark mode
+        </Button>
+        <Button variant="secondary">Do nothing</Button>
       </div>
     </section>
   );
