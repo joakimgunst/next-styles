@@ -21,7 +21,7 @@ const colors = {
   pureWhite: "#FFFFFF",
 };
 
-export const vars = createGlobalTheme(":root", {
+const theme = {
   color: {
     background: colors.pureWhite,
     text: colors.rockBlack,
@@ -31,17 +31,26 @@ export const vars = createGlobalTheme(":root", {
     display: "Reckless Neue",
     ui: "Roobert",
   },
-});
+  fontSize: {
+    base: "1rem",
+    lg: "1.125rem",
+    xl: "1.25rem",
+    "2xl": "1.5rem",
+    "3xl": "1.875rem",
+    "4xl": "2.25rem",
+    "5xl": "3rem",
+    "6xl": "3.75rem",
+  },
+};
+
+export const vars = createGlobalTheme(":root", theme);
 
 export const darkMode = createTheme(vars, {
+  ...theme,
   color: {
     background: colors.rockBlack,
     text: colors.pureWhite,
     accent: colors.malibuBlue,
-  },
-  font: {
-    display: "Reckless Neue",
-    ui: "Roobert",
   },
 });
 

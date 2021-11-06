@@ -20,7 +20,7 @@ const pulse = keyframes({
 export const text = style({
   fontFamily: vars.font.display,
   color: vars.color.accent,
-  fontSize: "2rem",
+  fontSize: vars.fontSize["3xl"],
   textAlign: "center",
   margin: 0,
   animation: `10s infinite ${pulse}`,
@@ -28,7 +28,7 @@ export const text = style({
   userSelect: "none",
   "@media": {
     "(min-width: 1024px)": {
-      fontSize: "4rem",
+      fontSize: vars.fontSize["6xl"],
     },
   },
 });
