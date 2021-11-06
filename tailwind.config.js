@@ -20,7 +20,17 @@ module.exports = {
       display: "Reckless Neue",
       ui: "Roobert",
     },
-    extend: {},
+    extend: {
+      animation: {
+        "size-pulse": "10s infinite size-pulse",
+      },
+      keyframes: {
+        "size-pulse": {
+          "0%, 100%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.1)" },
+        },
+      },
+    },
   },
   variants: {
     extend: {},

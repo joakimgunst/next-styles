@@ -8,7 +8,7 @@ export default function HomeView() {
 
   return (
     <section className="h-screen flex items-center justify-center flex-col gap-10 dark:bg-rockBlack">
-      <h1 className="text-3xl select-none text-neonBlue lg:text-6xl dark:text-malibuBlue font-display">
+      <h1 className="text-3xl select-none text-neonBlue lg:text-6xl dark:text-malibuBlue font-display animate-size-pulse">
         Sustainable digital engineering
       </h1>
       <div className="flex items-center gap-4">
