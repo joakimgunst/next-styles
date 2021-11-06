@@ -16,6 +16,10 @@ module.exports = {
       malibuBlue: "#6DC4E2",
       pureWhite: "#FFFFFF",
     },
+    fontFamily: {
+      display: "Reckless Neue",
+      ui: "Roobert",
+    },
     extend: {},
   },
   variants: {

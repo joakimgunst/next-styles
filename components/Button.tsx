@@ -13,7 +13,7 @@ export default function Button(props: Props) {
     <button
       {...otherProps}
       className={classNames(
-        "py-2 px-4 rounded-sm border-2 text-xl border-rockBlack dark:border-pureWhite hover:scale-105 transition",
+        "py-2 px-4 rounded-sm border-2 text-xl border-rockBlack dark:border-pureWhite hover:scale-105 transition font-ui",
         variant === "primary" &&
           "bg-rockBlack text-pureWhite dark:bg-pureWhite dark:text-rockBlack",
         variant === "secondary" &&

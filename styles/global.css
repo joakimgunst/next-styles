@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Reckless Neue";
+    font-weight: bold;
+    src: url("/fonts/RecklessNeue-Bold.woff2");
+  }
+  @font-face {
+    font-family: "Roobert";
+    src: url("/fonts/Roobert-Regular.woff2");
+  }
+}
