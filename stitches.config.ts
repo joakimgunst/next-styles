@@ -26,9 +26,9 @@ export const { styled, getCssText, keyframes } = createStitches({
       10: "2.5rem",
     },
     fontSizes: {
-      xl: "1.25rem",
-      "3xl": "1.875rem",
-      "6xl": "3.75rem",
+      md: "1.25rem",
+      lg: "1.875rem",
+      xl: "3.75rem",
     },
   },
   media: {

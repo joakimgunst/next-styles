@@ -16,9 +16,9 @@ export default function Heading() {
 const StyledHeading = styled(motion.h1, {
   fontFamily: "$display",
   color: "$accent",
-  fontSize: "$3xl",
+  fontSize: "$lg",
   textAlign: "center",
   "@desktop": {
-    fontSize: "$6xl",
+    fontSize: "$xl",
   },
 });
