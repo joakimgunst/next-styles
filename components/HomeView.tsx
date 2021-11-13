@@ -12,7 +12,7 @@ export default function HomeView() {
       <Head>
         <title>Tailwind</title>
       </Head>
-      <h1 className="text-3xl select-none text-neonBlue lg:text-6xl dark:text-malibuBlue font-display animate-size-pulse">
+      <h1 className="text-lg select-none text-neonBlue lg:text-xl dark:text-malibuBlue font-display animate-size-pulse">
         Sustainable digital engineering
       </h1>
       <div className="flex items-center gap-4">

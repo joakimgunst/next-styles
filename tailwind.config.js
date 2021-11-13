@@ -20,6 +20,11 @@ module.exports = {
       display: "Reckless Neue",
       ui: "Roobert",
     },
+    fontSize: {
+      md: "1.25rem",
+      lg: "1.875rem",
+      xl: "3.75rem",
+    },
     extend: {
       animation: {
         "size-pulse": "10s infinite size-pulse",
