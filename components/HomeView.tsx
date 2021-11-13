@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import Head from "next/head";
+import Heading from "./Heading";
 
 export default function HomeView() {
   function toggleDarkMode() {
@@ -12,9 +13,7 @@ export default function HomeView() {
       <Head>
         <title>Tailwind</title>
       </Head>
-      <h1 className="text-lg select-none text-neonBlue lg:text-xl dark:text-malibuBlue font-display animate-size-pulse">
-        Sustainable digital engineering
-      </h1>
+      <Heading />
       <div className="flex items-center gap-4">
         <Button variant="primary" onClick={toggleDarkMode}>
           Toggle dark mode
