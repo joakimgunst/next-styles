@@ -15,9 +15,9 @@
   --color-accent: #6056eb;
   --font-display: "Reckless Neue";
   --font-ui: "Roobert";
-  --font-size-xl: 1.25rem;
-  --font-size-3xl: 1.875rem;
-  --font-size-6xl: 3.75rem;
+  --font-size-md: 1.25rem;
+  --font-size-lg: 1.875rem;
+  --font-size-xl: 3.75rem;
 }
 
 body.dark {

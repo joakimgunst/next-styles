@@ -33,7 +33,7 @@ export default function HomeView() {
         .text {
           font-family: var(--font-display);
           color: var(--color-accent);
-          font-size: var(--font-size-3xl);
+          font-size: var(--font-size-lg);
           text-align: center;
           margin: 0;
           animation: 10s infinite pulse;
@@ -43,7 +43,7 @@ export default function HomeView() {
 
         @media (min-width: 1024px) {
           .text {
-            font-size: var(--font-size-6xl);
+            font-size: var(--font-size-xl);
           }
         }
 

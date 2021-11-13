@@ -18,7 +18,7 @@ export default function Button(props: Props) {
       <style jsx>{`
         .button {
           font-family: var(--font-ui);
-          font-size: var(--font-size-xl);
+          font-size: var(--font-size-md);
           text-align: center;
           padding: 8px 16px;
           border-width: 2px;
