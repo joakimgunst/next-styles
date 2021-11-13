@@ -3,7 +3,7 @@ import { vars } from "../styles/theme.css";
 
 const buttonBase = style({
   fontFamily: vars.font.ui,
-  fontSize: vars.fontSize.xl,
+  fontSize: vars.fontSize.md,
   textAlign: "center",
   padding: "8px 16px",
   borderWidth: 2,

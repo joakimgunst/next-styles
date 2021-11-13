@@ -4,11 +4,11 @@ import { vars } from "../styles/theme.css";
 export const heading = style({
   fontFamily: vars.font.display,
   color: vars.color.accent,
-  fontSize: vars.fontSize["3xl"],
+  fontSize: vars.fontSize.lg,
   textAlign: "center",
   "@media": {
     "(min-width: 1024px)": {
-      fontSize: vars.fontSize["6xl"],
+      fontSize: vars.fontSize.xl,
     },
   },
 });
