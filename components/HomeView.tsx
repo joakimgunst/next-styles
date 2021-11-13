@@ -1,7 +1,8 @@
 import React from "react";
-import { darkTheme, keyframes, styled } from "../stitches.config";
+import { darkTheme, styled } from "../stitches.config";
 import Button from "./Button";
 import Head from "next/head";
+import Heading from "./Heading";
 
 export default function HomeView() {
   function toggleDarkMode() {
@@ -13,7 +14,7 @@ export default function HomeView() {
       <Head>
         <title>Stitches</title>
       </Head>
-      <Heading>Sustainable digital engineering</Heading>
+      <Heading />
       <Buttons>
         <Button variant="primary" onClick={toggleDarkMode}>
           Toggle dark mode
@@ -32,26 +33,6 @@ const Section = styled("section", {
   justifyContent: "center",
   flexDirection: "column",
   gap: "$10",
-});
-
-const pulse = keyframes({
-  "0%": { transform: "scale(1)" },
-  "50%": { transform: "scale(1.1)" },
-  "100%": { transform: "scale(1)" },
-});
-
-const Heading = styled("h1", {
-  fontFamily: "$display",
-  color: "$accent",
-  fontSize: "$3xl",
-  textAlign: "center",
-  margin: 0,
-  animation: `10s infinite ${pulse}`,
-  transition: "all .2s ease",
-  userSelect: "none",
-  "@desktop": {
-    fontSize: "$6xl",
-  },
 });
 
 const Buttons = styled("div", {

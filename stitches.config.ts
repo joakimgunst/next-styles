@@ -46,6 +46,7 @@ export const darkTheme = createTheme({
 
 export const globalStyles = globalCss({
   body: { margin: 0 },
+  h1: { margin: 0 },
   "@font-face": [
     {
       fontFamily: "Reckless Neue",
