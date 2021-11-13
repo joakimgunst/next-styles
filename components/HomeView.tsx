@@ -1,5 +1,6 @@
 import Button from "./Button";
 import Head from "next/head";
+import Heading from "./Heading";
 
 export default function HomeView() {
   function toggleDarkMode() {
@@ -11,7 +12,7 @@ export default function HomeView() {
       <Head>
         <title>styled-jsx</title>
       </Head>
-      <h1 className="text">Sustainable digital engineering</h1>
+      <Heading />
       <div className="buttons">
         <Button variant="primary" onClick={toggleDarkMode}>
           Toggle dark mode
@@ -30,39 +31,10 @@ export default function HomeView() {
           gap: 40px;
         }
 
-        .text {
-          font-family: var(--font-display);
-          color: var(--color-accent);
-          font-size: var(--font-size-lg);
-          text-align: center;
-          margin: 0;
-          animation: 10s infinite pulse;
-          transition: all 0.2s ease;
-          user-select: none;
-        }
-
-        @media (min-width: 1024px) {
-          .text {
-            font-size: var(--font-size-xl);
-          }
-        }
-
         .buttons {
           display: flex;
           align-items: center;
           gap: 16px;
-        }
-
-        @keyframes pulse {
-          0% {
-            transform: scale(1);
-          }
-          50% {
-            transform: scale(1.1);
-          }
-          100% {
-            transform: scale(1);
-          }
         }
       `}</style>
     </section>
