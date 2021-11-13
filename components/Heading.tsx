@@ -15,10 +15,10 @@ export default function Heading() {
 const StyledHeading = styled(motion.h1)`
   font-family: ${(props) => props.theme.fonts.display};
   color: ${(props) => props.theme.colors.accent};
-  font-size: ${(props) => props.theme.fontSizes["3xl"]};
+  font-size: ${(props) => props.theme.fontSizes.lg};
   text-align: center;
 
   @media (min-width: 1024px) {
-    font-size: ${(props) => props.theme.fontSizes["6xl"]};
+    font-size: ${(props) => props.theme.fontSizes.xl};
   }
 `;

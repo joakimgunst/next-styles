@@ -12,9 +12,9 @@ declare module "@emotion/react" {
       accent: string;
     };
     fontSizes: {
+      md: string;
+      lg: string;
       xl: string;
-      "3xl": string;
-      "6xl": string;
     };
   }
 }

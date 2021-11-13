@@ -8,7 +8,7 @@ interface Props {
 
 const Button = styled.button<Props>`
   font-family: ${(props) => props.theme.fonts.ui};
-  font-size: ${(props) => props.theme.fontSizes.xl};
+  font-size: ${(props) => props.theme.fontSizes.md};
   text-align: center;
   padding: 8px 16px;
   border-width: 2px;
