@@ -9,6 +9,7 @@
   src: url("/fonts/Roobert-Regular.woff2");
 }
 
-body {
+body,
+h1 {
   margin: 0;
 }
