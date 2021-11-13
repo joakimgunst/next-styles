@@ -49,6 +49,6 @@ export const darkMode = createTheme(vars, {
   },
 });
 
-globalStyle("body", {
+globalStyle("body, h1", {
   margin: 0,
 });

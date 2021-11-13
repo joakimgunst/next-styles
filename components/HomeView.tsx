@@ -1,7 +1,8 @@
 import { darkMode } from "../styles/theme.css";
 import Button from "./Button";
-import { buttons, container, text } from "./HomeView.css";
+import { buttons, container } from "./HomeView.css";
 import Head from "next/head";
+import Heading from "./Heading";
 
 export default function HomeView() {
   function toggleDarkMode() {
@@ -13,7 +14,7 @@ export default function HomeView() {
       <Head>
         <title>vanilla-extract</title>
       </Head>
-      <h1 className={text}>Sustainable digital engineering</h1>
+      <Heading />
       <div className={buttons}>
         <Button variant="primary" onClick={toggleDarkMode}>
           Toggle dark mode
