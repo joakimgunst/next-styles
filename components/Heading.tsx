@@ -1,5 +1,5 @@
 import React from "react";
-import { styled } from "../stitches.config";
+import { styled, theme } from "../stitches.config";
 import { motion } from "framer-motion";
 
 export default function Heading() {
@@ -14,11 +14,11 @@ export default function Heading() {
 }
 
 const StyledHeading = styled(motion.h1, {
-  fontFamily: "$display",
-  color: "$accent",
-  fontSize: "$lg",
+  fontFamily: theme.fonts.display,
+  color: theme.colors.accent,
+  fontSize: theme.fontSizes.lg,
   textAlign: "center",
   "@desktop": {
-    fontSize: "$xl",
+    fontSize: theme.fontSizes.xl,
   },
 });
