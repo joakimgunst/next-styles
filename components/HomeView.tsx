@@ -2,10 +2,13 @@ import styled from "@emotion/styled";
 import Button from "./Button";
 import Head from "next/head";
 import Heading from "./Heading";
+import { useDarkMode } from "../state/darkMode";
 
 export default function HomeView() {
+  const [_, setDarkMode] = useDarkMode();
+
   function toggleDarkMode() {
-    document.body.classList.toggle("dark");
+    setDarkMode((value) => !value);
   }
 
   return (

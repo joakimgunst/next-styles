@@ -23,3 +23,12 @@ export const theme: Theme = {
     xl: "3.75rem",
   },
 };
+
+export const darkTheme: Theme = {
+  ...theme,
+  colors: {
+    background: colors.rockBlack,
+    text: colors.pureWhite,
+    accent: colors.malibuBlue,
+  },
+};
