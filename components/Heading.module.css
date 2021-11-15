@@ -1,0 +1,12 @@
+.heading {
+  font-family: var(--font-display);
+  color: var(--color-accent);
+  font-size: var(--font-size-lg);
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .heading {
+    font-size: var(--font-size-xl);
+  }
+}
