@@ -25,17 +25,7 @@ module.exports = {
       lg: "1.875rem",
       xl: "3.75rem",
     },
-    extend: {
-      animation: {
-        "size-pulse": "10s infinite size-pulse",
-      },
-      keyframes: {
-        "size-pulse": {
-          "0%, 100%": { transform: "scale(1)" },
-          "50%": { transform: "scale(1.1)" },
-        },
-      },
-    },
+    extend: {},
   },
   variants: {
     extend: {},
