@@ -1,4 +1,4 @@
-import classNames from "classnames";
+import clsx from "clsx";
 import React, { ButtonHTMLAttributes } from "react";
 
 type ButtonVariant = "primary" | "secondary";
@@ -12,7 +12,7 @@ export default function Button(props: Props) {
   return (
     <button
       {...otherProps}
-      className={classNames(
+      className={clsx(
         "py-2 px-4 rounded-sm border-2 text-md border-rockBlack dark:border-pureWhite hover:scale-105 transition font-ui",
         variant === "primary" &&
           "bg-rockBlack text-pureWhite dark:bg-pureWhite dark:text-rockBlack",
