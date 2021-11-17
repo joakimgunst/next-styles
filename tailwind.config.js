@@ -1,10 +1,3 @@
-const colors = {
-  rockBlack: "#26273A",
-  neonBlue: "#6056EB",
-  malibuBlue: "#6DC4E2",
-  pureWhite: "#FFFFFF",
-};
-
 module.exports = {
   mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
@@ -25,10 +18,5 @@ module.exports = {
       lg: "1.875rem",
       xl: "3.75rem",
     },
-    extend: {},
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
 };
