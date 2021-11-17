@@ -51,4 +51,13 @@ export const darkMode = createTheme(vars, {
 
 globalStyle("body, h1", {
   margin: 0,
+  fontFamily: vars.font.ui,
+});
+
+globalStyle("h1", {
+  margin: 0,
+});
+
+globalStyle("a", {
+  color: vars.color.text,
 });

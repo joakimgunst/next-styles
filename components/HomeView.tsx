@@ -3,6 +3,7 @@ import Button from "./Button";
 import { buttons, container } from "./HomeView.css";
 import Head from "next/head";
 import Heading from "./Heading";
+import Link from "next/link";
 
 export default function HomeView() {
   function toggleDarkMode() {
@@ -21,6 +22,9 @@ export default function HomeView() {
         </Button>
         <Button variant="secondary">Do nothing</Button>
       </div>
+      <Link href="/second">
+        <a>Second page</a>
+      </Link>
     </section>
   );
 }
