@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
-import Head from "next/head";
 import Heading from "./Heading";
+import Link from "next/link";
 
 export default function HomeView() {
   function toggleDarkMode() {
@@ -10,9 +10,6 @@ export default function HomeView() {
 
   return (
     <section className="h-screen flex items-center justify-center flex-col gap-10 dark:bg-rockBlack">
-      <Head>
-        <title>Tailwind</title>
-      </Head>
       <Heading />
       <div className="flex items-center gap-4">
         <Button variant="primary" onClick={toggleDarkMode}>
@@ -20,6 +17,9 @@ export default function HomeView() {
         </Button>
         <Button variant="secondary">Do nothing</Button>
       </div>
+      <Link href="/second">
+        <a className="font-ui">Second page</a>
+      </Link>
     </section>
   );
 }
