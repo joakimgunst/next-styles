@@ -11,7 +11,7 @@ export const button = recipe({
     borderStyle: "solid",
     borderColor: vars.color.text,
     borderRadius: 2,
-    transition: "all .2s ease",
+    transition: "transform .2s ease",
     ":hover": {
       transform: "scale(1.05)",
     },
