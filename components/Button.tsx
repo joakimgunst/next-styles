@@ -15,7 +15,7 @@ const Button = styled.button<Props>`
   border-style: solid;
   border-color: var(--color-text);
   border-radius: 2px;
-  transition: transition 0.2s ease;
+  transition: transform 0.2s ease;
   background: ${(props) => {
     switch (props.variant) {
       case "primary":
