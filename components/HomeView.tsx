@@ -1,6 +1,5 @@
 import { styled } from "linaria/react";
 import Button from "./Button";
-import Head from "next/head";
 import Heading from "./Heading";
 
 export default function HomeView() {
@@ -10,9 +9,6 @@ export default function HomeView() {
 
   return (
     <Container>
-      <Head>
-        <title>Linaria</title>
-      </Head>
       <Heading />
       <Buttons>
         <Button variant="primary" onClick={toggleDarkMode}>
