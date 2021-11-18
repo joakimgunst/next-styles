@@ -25,7 +25,7 @@ export default function Button(props: Props) {
           border-style: solid;
           border-color: var(--color-text);
           border-radius: 2px;
-          transition: all 0.2s ease;
+          transition: transform 0.2s ease;
         }
 
         .button:hover {
