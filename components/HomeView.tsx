@@ -18,7 +18,9 @@ export default function HomeView() {
         <Button variant="secondary">Do nothing</Button>
       </div>
       <Link href="/second">
-        <a className="font-ui">Second page</a>
+        <a className="font-ui text-rockBlack dark:text-pureWhite hover:underline">
+          Second page
+        </a>
       </Link>
     </section>
   );
