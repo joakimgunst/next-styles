@@ -59,5 +59,10 @@ globalStyle("h1", {
 });
 
 globalStyle("a", {
-  color: vars.color.text,
+  color: "inherit",
+  textDecoration: "inherit",
+});
+
+globalStyle("button", {
+  fontFamily: "inherit",
 });

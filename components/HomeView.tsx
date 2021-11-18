@@ -1,7 +1,6 @@
 import { darkMode } from "../styles/theme.css";
 import Button from "./Button";
-import { buttons, container } from "./HomeView.css";
-import Head from "next/head";
+import { buttons, container, link } from "./HomeView.css";
 import Heading from "./Heading";
 import Link from "next/link";
 
@@ -20,7 +19,7 @@ export default function HomeView() {
         <Button variant="secondary">Do nothing</Button>
       </div>
       <Link href="/second">
-        <a>Second page</a>
+        <a className={link}>Second page</a>
       </Link>
     </section>
   );

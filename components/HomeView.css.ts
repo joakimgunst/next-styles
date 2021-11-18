@@ -16,3 +16,10 @@ export const buttons = style({
   alignItems: "center",
   gap: 16,
 });
+
+export const link = style({
+  color: vars.color.text,
+  ":hover": {
+    textDecoration: "underline",
+  },
+});
