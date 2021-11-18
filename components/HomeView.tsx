@@ -1,6 +1,5 @@
 import styled from "@emotion/styled";
 import Button from "./Button";
-import Head from "next/head";
 import Heading from "./Heading";
 import { useDarkMode } from "../state/darkMode";
 
@@ -13,9 +12,6 @@ export default function HomeView() {
 
   return (
     <Container>
-      <Head>
-        <title>Emotion</title>
-      </Head>
       <Heading />
       <Buttons>
         <Button variant="primary" onClick={toggleDarkMode}>
