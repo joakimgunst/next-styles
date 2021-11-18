@@ -1,5 +1,4 @@
 import Button from "./Button";
-import Head from "next/head";
 import Heading from "./Heading";
 
 export default function HomeView() {
@@ -9,9 +8,6 @@ export default function HomeView() {
 
   return (
     <section className="container">
-      <Head>
-        <title>styled-jsx</title>
-      </Head>
       <Heading />
       <div className="buttons">
         <Button variant="primary" onClick={toggleDarkMode}>
