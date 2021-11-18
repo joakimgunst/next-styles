@@ -1,8 +1,8 @@
 import React from "react";
 import { darkTheme, styled } from "../stitches.config";
 import Button from "./Button";
-import Head from "next/head";
 import Heading from "./Heading";
+import Link from "next/link";
 
 export default function HomeView() {
   function toggleDarkMode() {
@@ -11,9 +11,6 @@ export default function HomeView() {
 
   return (
     <Section>
-      <Head>
-        <title>Stitches</title>
-      </Head>
       <Heading />
       <Buttons>
         <Button variant="primary" onClick={toggleDarkMode}>
@@ -21,6 +18,9 @@ export default function HomeView() {
         </Button>
         <Button variant="secondary">Do nothing</Button>
       </Buttons>
+      <Link href="/second" passHref>
+        <StyledLink>Second page</StyledLink>
+      </Link>
     </Section>
   );
 }
@@ -39,4 +39,11 @@ const Buttons = styled("div", {
   display: "flex",
   alignItems: "center",
   gap: "$4",
+});
+
+const StyledLink = styled("a", {
+  color: "$text",
+  "&:hover": {
+    textDecoration: "underline",
+  },
 });
