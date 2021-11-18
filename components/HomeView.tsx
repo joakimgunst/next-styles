@@ -12,9 +12,6 @@ export default function HomeView() {
 
   return (
     <section className={container}>
-      <Head>
-        <title>vanilla-extract</title>
-      </Head>
       <Heading />
       <div className={buttons}>
         <Button variant="primary" onClick={toggleDarkMode}>
