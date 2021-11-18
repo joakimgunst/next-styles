@@ -32,13 +32,13 @@ const Section = styled("section", {
   alignItems: "center",
   justifyContent: "center",
   flexDirection: "column",
-  gap: "$10",
+  gap: 40,
 });
 
 const Buttons = styled("div", {
   display: "flex",
   alignItems: "center",
-  gap: "$4",
+  gap: 16,
 });
 
 const StyledLink = styled("a", {

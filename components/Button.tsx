@@ -3,7 +3,7 @@ import { styled } from "../stitches.config";
 const Button = styled("button", {
   fontSize: "$md",
   textAlign: "center",
-  padding: "$2 $4",
+  padding: "8px 16px",
   borderWidth: 2,
   borderStyle: "solid",
   borderColor: "$text",

@@ -18,13 +18,6 @@ export const { styled, getCssText, keyframes, theme } = createStitches({
       text: colors.rockBlack,
       accent: colors.neonBlue,
     },
-    space: {
-      2: "0.5rem",
-      4: "1rem",
-      6: "1.5rem",
-      8: "2rem",
-      10: "2.5rem",
-    },
     fontSizes: {
       md: "1.25rem",
       lg: "1.875rem",
