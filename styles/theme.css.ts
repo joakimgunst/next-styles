@@ -1,18 +1,8 @@
 import {
   createGlobalTheme,
   createTheme,
-  globalFontFace,
   globalStyle,
 } from "@vanilla-extract/css";
-
-globalFontFace("Reckless Neue", {
-  fontWeight: "bold",
-  src: 'url("/fonts/RecklessNeue-Bold.woff2")',
-});
-
-globalFontFace("Roobert", {
-  src: 'url("/fonts/Roobert-Regular.woff2")',
-});
 
 const colors = {
   rockBlack: "#26273A",
@@ -49,20 +39,6 @@ export const darkMode = createTheme(vars, {
   },
 });
 
-globalStyle("body, h1", {
-  margin: 0,
+globalStyle("body", {
   fontFamily: vars.font.ui,
-});
-
-globalStyle("h1", {
-  margin: 0,
-});
-
-globalStyle("a", {
-  color: "inherit",
-  textDecoration: "inherit",
-});
-
-globalStyle("button", {
-  fontFamily: "inherit",
 });
