@@ -15,7 +15,7 @@ const Button = styled.button<Props>`
   border-style: solid;
   border-color: ${(props) => props.theme.colors.text};
   border-radius: 2px;
-  transition: all 0.2s ease;
+  transition: transform 0.2s ease;
   background: ${(props) => {
     switch (props.variant) {
       case "primary":
@@ -32,7 +32,6 @@ const Button = styled.button<Props>`
         return props.theme.colors.text;
     }
   }};
-
   &:hover {
     transform: scale(1.05);
   }
