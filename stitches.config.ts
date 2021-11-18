@@ -45,19 +45,5 @@ export const darkTheme = createTheme({
 });
 
 export const globalStyles = globalCss({
-  body: { margin: 0, fontFamily: theme.fonts.ui },
-  h1: { margin: 0 },
-  a: { color: "inherit", textDecoration: "inherit" },
-  button: { fontFamily: "inherit" },
-  "@font-face": [
-    {
-      fontFamily: "Reckless Neue",
-      fontWeight: "bold",
-      src: 'url("/fonts/RecklessNeue-Bold.woff2")',
-    },
-    {
-      fontFamily: "Roobert",
-      src: 'url("/fonts/Roobert-Regular.woff2")',
-    },
-  ],
+  body: { fontFamily: theme.fonts.ui },
 });

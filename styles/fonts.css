@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Reckless Neue";
+  font-weight: bold;
+  src: local("RecklessNeue-Bold"), url("/fonts/RecklessNeue-Bold.woff2");
+}
+
+@font-face {
+  font-family: "Roobert";
+  src: local("Roobert-Regular"), url("/fonts/Roobert-Regular.woff2");
+}
