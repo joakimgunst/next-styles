@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>vanilla-extract</title>
+        <title>Windi CSS</title>
       </Head>
       <Component {...pageProps} />
     </>
