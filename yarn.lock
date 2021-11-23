@@ -576,6 +576,11 @@
   resolved "https://registry.yarnpkg.com/@vanilla-extract/recipes/-/recipes-0.2.1.tgz#a3dab757e4c73cf4c42f8fb01cfd81010067ecca"
   integrity sha512-H73oWlFG6Lf1TYBM2zY+z3f9vrNKhGtJKpX53YrUi28xCdsMZq7yucSy8vfKWZu26SFpVYbxncRx0sKGTuCD9A==
 
+"@vanilla-extract/sprinkles@^1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@vanilla-extract/sprinkles/-/sprinkles-1.3.1.tgz#18de2841327e423ded745c398fe82786e3614b62"
+  integrity sha512-RxD+Thb4ZdrJB/rnfGkZR3jFYj48/oKlK79yIe9MS1+s5L0oC9E6L727PJoHEP+69EMuuCrufdHge4AdPzovxA==
+
 "@vanilla-extract/webpack-plugin@^2.0.0":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@vanilla-extract/webpack-plugin/-/webpack-plugin-2.1.1.tgz#95417261b7be81250c80cf9052479d7438b080a3"
